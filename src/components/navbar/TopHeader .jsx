@@ -3,7 +3,7 @@ import { Box, Container, Typography, Select, MenuItem, Stack } from "@mui/materi
 export default function TopHeader () {
   return (
      <Box sx={{backgroundColor: "#f5f5f5",borderBottom: "1px solid #e0e0e0",fontSize: "14px"}}>
-      <Container sx={{ display: "flex", justifyContent: "space-between", py: 1 }}>
+      <Container maxWidth={false} sx={{ display: "flex", justifyContent: "space-between", py: 1 }}>
 
         <Stack direction="row" spacing={2}>
           <Typography variant="body2">Hotline 24/7</Typography>
